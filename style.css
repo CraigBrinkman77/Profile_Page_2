@@ -1,0 +1,171 @@
+/*Set Up*/
+* {
+    margin: 0px;
+    font-family: monospace;
+    
+}
+.flex {
+    display:flex;
+    align-items: center;
+}
+.col1 {
+    flex: 3;
+    height: 2000px;
+    margin: 10px;
+}
+.col2 {
+    height: 2000px;
+    margin: 10px;
+    flex: 2;
+}
+/*Header*/
+.header { 
+    background-color: black; 
+    height: 117px;
+    padding: 0px 50px 0px;
+    justify-content: space-between;
+}
+.headerleft{
+    color:blanchedalmond;
+}
+.headerleft h1 {
+    font-size: 25pt;
+}
+li {
+    margin:10px;
+    font-size: 12pt;
+}
+.submit {
+    background-color:purple;
+    border: 5px solid rgb(16, 170, 55);
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 18px;
+    transition: .3s;
+    box-shadow: 5px 5px 5px blanchedalmond;
+}
+.submit:hover {
+    background-color: rgb(37, 119, 57);
+    color: white;
+}
+.submit:active{
+    background-color: rgb(247, 0, 255);
+}
+.options {
+    justify-content: space-around;
+    list-style: none;
+}
+.body {
+    background-color: blanchedalmond;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/*User Card*/
+.usercard{
+    margin: 20px;
+    border: 7px solid #43cf48;
+    height: 400px;
+    border-radius: 7px;
+    background-color: blanchedalmond;
+}
+.bar{
+    margin-left:-1px;
+    height: 100px;
+    background-color:#43cf48;
+    margin-bottom: 60px;
+}
+#me{
+    width:100px;
+    border-radius: 50%;
+    margin: 30px 0px 0px 30px;
+    border:2px solid blanchedalmond;
+}
+.info{
+    margin-left: 15px;
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: space-between;
+}
+.usercard h1{
+    margin-left:20px;
+}
+img.logo1{
+    width: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*for education*/
+.secondarycardright, .secondarycardleft{
+    margin: 20px;
+    border: 7px solid rgb(37, 119, 57);
+    height: 400px;
+    border-radius: 7px;
+    background-color: blanchedalmond;
+}
+.secondarycardleft{
+    height: 300px;
+}
+.secondarybar{
+    margin-left:-1px;
+    height: 50px;
+    background-color:rgb(37, 119, 57);
+}
+.education{
+    padding-left: 30px;
+}
+img.logo{
+    width:40px;
+    border-radius: 50%;
+    border:1px solid black;
+    margin-left:10px;
+    margin-right:10px;
+}
+.box{
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.secondarycardleft p{
+    margin-left: 25px;
+}
+/*Request*/
+img.user{
+    width:40px;
+    margin-right: 20px;
+}
+.request {
+    background-color:purple;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 18px;
+    transition: .3s;
+    margin: 10px;
+}
+.request:hover {
+    background-color: rgb(37, 119, 57);
+    color: white;
+}
+.request:active{
+    background-color: rgb(247, 0, 255);
+}
+.box1{
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.list {
+    background-color:purple;
+    border: none;
+    border-radius: 80%;
+    padding: 10px;
+    font-size: 18px;
+    transition: .3s;
+    margin: 10px;
+}
+.list:hover {
+    background-color: rgb(37, 119, 57);
+    color: white;
+}
+.list:active{
+    background-color: rgb(247, 0, 255);
+}
